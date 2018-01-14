@@ -49,7 +49,7 @@ for (i=0, l = cart.length; i<l; i++){
     sum +=item(cart[i]);
   }
 }
-return t
+return t;
 }
 
 function removeFromCart(item) {
