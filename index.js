@@ -46,7 +46,7 @@ function total() {
 let t = 0;
 for (i=0, l = cart.length; i<l; i++){
   for (let item in cart[i]){
-    sum +=item(cart[i]);
+    sum +=cart[i][item];
   }
 }
 return t;
